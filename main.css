@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, p, button, input, form {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+div{
+    display: block;
+    text-align: center;
+}
+
+
+#content, input,  button {
+    margin: 20px;
+    display: block;
+    padding: 10px;
+    width: 500px;
+    
+}
+form input, form button {
+    border-radius: 10px;
+}
+input, button {
+    box-shadow: 0px 2px 6px rgba( 0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+}
+
+input:hover, button:hover {
+    border: 2px solid rgb(54, 184, 173);
+    box-shadow: 3px 10px 12px rgba( 0, 0, 0, 0.2);
+}
+
+button:hover{
+    background-color: rgb(93, 255, 206);
+    color: white;
+}
+
+p{
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.mensagem {
+    display: none; /* Inicialmente oculta */
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensagemSucesso{
+    
+    color: greenyellow;
+}
+
+.mensagemErro{
+    
+    color: red;
+}
